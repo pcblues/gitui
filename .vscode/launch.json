@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "C:\\Users\\marko\\.cargo\\bin\\gitui.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true
+        },
+        {
             "name": "(OSX) Launch",
             "type": "lldb",
             "request": "launch",
